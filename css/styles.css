@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
 .container{
     max-width: 1200px;
     width: 100%;
     margin: auto;
 }
 .input{
-    font-family: SF Pro Display;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     outline: none;
@@ -27,11 +31,11 @@
 }
 .input-adress::placeholder{
     color:#BFBFBF;
-    font-family: SF Pro Display;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    
 }
 .block{
     display: flex;
@@ -73,4 +77,125 @@ max-height: 40px;
 
 .button--secondary{
     border: 1px solid #D9D9D9;
+}
+.section__promo{
+    margin-bottom: 56px;
+}
+
+.promo__block{
+    background: #FFF1B8 url(../img/promo.png) no-repeat right center;
+    border-radius: 10px;
+    padding: 68px 0;
+    padding-left: 71px;
+    filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
+}
+
+.promo__desc{
+    
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+
+}
+
+.promo__title{
+   
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+    margin-bottom: 18px;
+
+}
+
+.promo__info{
+    max-width: 535px;
+    width: 100%;
+}
+.restour__search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.section__title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+
+.input__search{
+    
+}
+.input-search{
+    max-width: 306px;
+    width: 100%;
+    padding: 5px 12px 5px 32px;
+    background: url(../img/search.svg) no-repeat 10px 11px;
+}
+.input-search::placeholder{
+    color:#BFBFBF;
+    line-height: 24px;
+}
+
+.card{
+    max-width: 384px;
+    width: 100%;
+}
+
+.card__main{
+    padding: 21px 24px 35px;
+}
+
+.card__title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.card__desc{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.title_time{
+    background: #262626;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+
+color: #FFFFFF;
+padding: 4px 8px;
+}
+
+.card__reit{
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+    
+}
+
+.card__reit::before{
+    content: '' ;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: -22px;
+    background: url(../img/rate.svg);
 }
