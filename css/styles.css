@@ -8,6 +8,11 @@ html{
     font-style: normal;
     font-size: 18px;
 }
+
+body{
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
 .container{
     max-width: 1200px;
     width: 100%;
@@ -61,6 +66,10 @@ max-height: 40px;
     border: none;
     border-radius: 2px;
     margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .button__man{
@@ -78,9 +87,6 @@ max-height: 40px;
 .button--secondary{
     border: 1px solid #D9D9D9;
 }
-.section__promo{
-    margin-bottom: 56px;
-}
 
 .promo__block{
     background: #FFF1B8 url(../img/promo.png) no-repeat right center;
@@ -97,6 +103,11 @@ max-height: 40px;
     line-height: 28px;
     color: #302C34;
 
+}
+
+.section__restourants{
+    padding-top: 56px;
+    padding-bottom: 90px;
 }
 
 .promo__title{
@@ -125,9 +136,6 @@ font-size: 36px;
 line-height: 42px;
 }
 
-.input__search{
-    
-}
 .input-search{
     max-width: 306px;
     width: 100%;
@@ -139,9 +147,19 @@ line-height: 42px;
     line-height: 24px;
 }
 
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
 .card{
     max-width: 384px;
     width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin-bottom: 30px;
 }
 
 .card__main{
@@ -182,6 +200,7 @@ padding: 4px 8px;
 }
 
 .card__reit{
+    margin-left: 22px;
     position: relative;
     font-weight: bold;
     font-size: 18px;
@@ -198,4 +217,52 @@ padding: 4px 8px;
     top: 7px;
     left: -22px;
     background: url(../img/rate.svg);
+}
+.card__price{
+    color: #8c8c8c;
+    margin-left: 26px;
+}
+.card__category{
+    color: #8c8c8c;
+    position: relative;
+    margin-left: 25px;
+}
+.card__category::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    margin-top: -2.5px;
+    width: 5px;
+    height: 5px;
+    background: #8c8c8c;
+    border-radius: 50%;
+}
+
+.section__footer{
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.block__navigation{
+    display: flex;
+    align-items: center ;
+}
+.navigation__footer{
+    margin-left: 36px;
+}
+.nav-item{
+    line-height: 21px;
+    color: #595959;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+
+.social-img{
+    height: 25px;
+    margin-left: 25px;
 }
