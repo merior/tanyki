@@ -270,3 +270,66 @@ padding: 4px 8px;
     height: 25px;
     margin-left: 25px;
 }
+.restour__title{
+    font-size: 36px;
+    line-height: 42px;
+}
+.restour__info{
+    margin-top: 40px;
+    margin-bottom: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.restour__desc{
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+    margin-left: 32px;
+}
+
+.card__category__init{
+    color: #8c8c8c;
+    position: relative;
+    margin-bottom: 25px;
+    
+}
+.card__desc__position{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.card__title{
+    width: 337px;
+    height: 32px;
+}
+
+.button--addto{
+    padding: 7px 36px 7px 14px;
+    
+    border: none;
+    border-radius: 2px;
+    
+    font-family: 'OpenSans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #fff url(../img/whitecart.svg) no-repeat 99px center;
+    background-color: #1890FF;
+    color:white;
+    border: 1px solid #1890FF;
+}
+.button--addtocart{
+    display: flex;
+}
+.card__cost{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 59px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+}
+
