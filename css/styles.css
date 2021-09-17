@@ -202,6 +202,10 @@ line-height: 20px;
 color: #FFFFFF;
 padding: 4px 8px;
 }
+.link__name{
+    text-decoration: none;
+    color: #000
+}
 
 .card__reit{
     margin-left: 22px;
