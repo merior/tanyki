@@ -84,125 +84,11 @@ max-height: 40px;
     background: url(../img/korzina.svg) no-repeat 16px center;
 }
 
-.button--secondary{
-    border: 1px solid #D9D9D9;
-}
-
-.promo__block{
-    background: #FFF1B8 url(../img/promo.png) no-repeat right center;
-    border-radius: 10px;
-    padding: 68px 0;
-    padding-left: 71px;
-    filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
-}
-
-.promo__desc{
-    
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #302C34;
-
-}
 
 .section__restourants{
     padding-top: 56px;
     padding-bottom: 90px;
 }
-
-.promo__title{
-   
-    font-weight: bold;
-    font-size: 39px;
-    line-height: 46px;
-    color: #302C34;
-    margin-bottom: 18px;
-
-}
-
-.promo__info{
-    max-width: 535px;
-    width: 100%;
-}
-.restour__search{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 44px;
-}
-
-.section__title{
-    font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-}
-
-.input-search{
-    max-width: 306px;
-    width: 100%;
-    padding: 5px 12px 5px 32px;
-    background: url(../img/search.svg) no-repeat 10px 11px;
-}
-.input-search::placeholder{
-    color:#BFBFBF;
-    line-height: 24px;
-}
-
-.cards{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.card{
-    max-width: 384px;
-    width: 100%;
-    background: #fff;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
-    border-radius: 7px;
-    margin-bottom: 30px;
-}
-
-.card__img{
-    border-radius: 7px;
-}
-
-.card__main{
-    padding: 21px 24px 35px;
-}
-
-.card__title{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    
-}
-
-.card__desc{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.title{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-}
-
-.title_time{
-    background: #262626;
-    border-radius: 2px;
-    font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 20px;
-
-color: #FFFFFF;
-padding: 4px 8px;
-}
-
 .card__reit{
     margin-left: 22px;
     position: relative;
@@ -243,6 +129,107 @@ padding: 4px 8px;
     border-radius: 50%;
 }
 
+.restourdesc{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 5px;
+}
+.restour__search_two{
+    display: flex;            
+    margin-bottom: 44px;
+}
+
+.tanyki__title{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+        
+.card{
+    max-width: 384px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+     border-radius: 7px;
+            margin-bottom: 30px;
+        }
+        
+.card__img{
+    border-radius: 7px;
+}
+        
+.card__main{
+    padding: 21px 24px 35px;
+}
+        
+.card__title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+        
+.card__desc{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.card__category__tanyki{
+    color: #8c8c8c;
+    position: relative;               
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;  
+    padding-bottom: 24px;              
+}
+.butt{
+    padding: 7px 34px 7px 14px;
+    border: none;
+    border-radius: 2px;        
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.butt__cart{
+    background: url(../img/carttwo.svg) no-repeat 93px center;
+}
+
+.butt__primary{
+    background-color: #1890FF;
+    color:white;
+    border: 1px solid #1890FF;
+}
+.cena{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+.butt__cena{
+    display: flex;            
+}
+
 .section__footer{
     background: #fff;
     padding-top: 60px;
@@ -270,6 +257,3 @@ padding: 4px 8px;
     height: 25px;
     margin-left: 25px;
 }
-
-
-
